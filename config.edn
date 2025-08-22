@@ -3,9 +3,10 @@
  :database-url "postgresql://db:5432/rems?user=rems&password=remspassword"
  :search-index-path "/tmp/rems-search-index"
  :authentication :oidc
- :oidc-metadata-url "https://login.elixir-czech.org/oidc/.well-known/openid-configuration"
- :oidc-client-id ""
- :oidc-client-secret ""
+ ;:oidc-metadata-url "https://login.aai.lifescience-ri.eu/oidc/.well-known/openid-configuration"
+ :oidc-metadata-url "https://kc.portal.gdi.biodata.pt/oidc/.well-known/openid-configuration"
+ :oidc-client-id "adele-demo-rems"
+ :oidc-client-secret "adele-demo-rems-password"
  :oidc-scopes "openid profile email"
  :oidc-userid-attributes [{:attribute "sub"}]
  :oidc-name-attributes ["name" "unique_name" "family_name"]
