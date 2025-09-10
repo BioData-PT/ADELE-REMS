@@ -4,6 +4,7 @@
  :search-index-path "/tmp/rems-search-index"
  :authentication :oidc
  ;:oidc-metadata-url "https://login.aai.lifescience-ri.eu/oidc/.well-known/openid-configuration"
+
  :oidc-metadata-url "https://kc.portal.gdi.biodata.pt/oidc/.well-known/openid-configuration"
  :oidc-client-id "adele-demo-rems"
  :oidc-client-secret "adele-demo-rems-password"
@@ -17,6 +18,7 @@
  :ga4gh-visa-private-key "/rems/keys/private-key.jwk"
  :ga4gh-visa-public-key "/rems/keys/public-key.jwk"
  :enable-permissions-api true
+
  :enable-pdf-api true
  :enable-catalogue-tree true
  :catalogue-tree-show-matching-parents true
